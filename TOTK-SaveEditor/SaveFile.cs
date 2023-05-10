@@ -2,14 +2,14 @@
 using System.IO;
 using System.Text;
 
-namespace TOTK_SaveGame_Editor
+namespace TOTK_SaveEditor
 {
     public class SaveFile
     {
         public bool IsLoaded = false;
 
         private string _Path = "progress.sav";
-        private byte[] _Data;
+        private byte[] _Data = Array.Empty<byte>();
         
         private int RUPEE_ADDRESS;          // 0x04 | int32 | Pattern: D7 21 79 A7       
         private int HEART_ADDRESS;          // 0x04 | int32 | Pattern: A1 1D E0 FB      

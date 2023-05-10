@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TOTK_SaveGame_Editor
+namespace TOTK_SaveEditor
 {
     public static class GameData
     {
